@@ -45,7 +45,7 @@ UCR<-c("Blank",
        "Part 3",
        "Property Crimes")
 
-register_google(key = "AIzaSyA-q8mXlDOHKK4XM9IHSC8osLacVywhiLQ")
+register_google()
 map.center <- geocode("Boston, MA")
 
 #table(df$UCR_PART)
