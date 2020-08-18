@@ -1,5 +1,9 @@
 # BostonCrime
- Rshiny App of the Analyze Boston Crime Incidence Dataset
+*Updates: API usage implemented
+*Next Steps: Fix levels for Days of week and Hour, Fix Distirct naming convention (Issues caused by switch to API)
+*Other Steps: Fix where to use API Calls, too many calls repeated 
+
+Rshiny App of the Analyze Boston Crime Incidence Dataset
  
  
  Let the App load until the drop downs populate then it should work. The dataset  is large and doesn't load fast as I have not implemented the API (not part of the class)
