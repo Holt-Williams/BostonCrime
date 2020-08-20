@@ -1,7 +1,7 @@
 # BostonCrime
 *Updates: API usage implemented
 
-*Next Steps: Fix levels for Days of week and Hour, Fix Distirct naming convention (Issues caused by switch to API)
+*Next Steps: Fix levels for Days of week and Hour, Fix District naming convention (Issues caused by switch to API)
 
 *Other Steps: Fix where to use API Calls, too many calls repeated 
 
