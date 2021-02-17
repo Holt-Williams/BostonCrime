@@ -2,21 +2,18 @@ library(shiny)
 library(tidyverse)
 library(ggthemes)
 library(zoo)
-#library(highcharter)
-library(wordcloud2)
+library(RColorBrewer)
 library(ggmap)
-#library(RColorBrewer)
+library(ckanr)
+
+#Testing
 
 #library(DT)
-
 #library(xts)
-
-
 #library(DT)
 #library(forecast)
 #library(knitr)
-
-
-
+#library(highcharter)
 ## Data Cleaning
 
+print(1)

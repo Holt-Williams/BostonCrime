@@ -8,8 +8,7 @@
 #
 
 library(shiny)
-library(highcharter)
-library(wordcloud2)
+
 
 # Define UI for application that draws a histogram
 htmlTemplate("template.html",
@@ -39,24 +38,19 @@ htmlTemplate("template.html",
              
              districtselector = selectInput(inputId = "district", label = "", choices = NULL),
              
-             mymap = plotOutput("mymap",  width = "100%"),
+             mymap = plotOutput("mymap"),
              
              timeplot = plotOutput("timePlot"),
              
              
              incidentyear= plotOutput("incidentsYear"),
              
-             shootingplot= plotOutput("shootingPlot"),
              sliderDate2 =  dateRangeInput("daterange2", "Date range:",
                                           start = "2015-06-15",
                                           end   = "2020-06-17",
                                           min    = "2015-06-15",
                                           max    = "2020-06-17"
-                                        ),
-             
-            shootingplotbar= highchartOutput("shootingPlotBar"),
-            radiobox = radioButtons("radio", label = h3("Radio buttons"),
-                          choices = list("No Highlights" = "1", "Highlight Increasing Offenses" = "2")) 
+                                        ) 
              
              ) 
 
