@@ -8,7 +8,7 @@
 Rshiny App of the Analyze Boston Crime Incidence Dataset
  
  
- Let the App load until the drop downs populate then it should work. The dataset  is large and doesn't load fast as I have not implemented the API (not part of the class)
+ Let the App load until the drop downs populate then it should work. The dataset  is large and doesn't load fast as I have not implemented the API (not part of the class). *UPDATE* API has been implemented, but a warning now appears. Likely caused by new package versions.
  
  Shinyapps.io
  
