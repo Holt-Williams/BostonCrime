@@ -11,7 +11,7 @@ cols<-colnames(df)[c(2,6,9:10,12)]
 df<-df%>%mutate_at(cols, funs(factor(.)))
 df$OCCURRED_ON_DATE<-as.Date(df$OCCURRED_ON_DATE)
 # Order Day of Week Correctly
-df$DAY_OF_WEEK <- ordered(df$DAY_OF_WEEK, levels=c("Monday", "Tuesday", "Wednesday", "Thursday", 
+df$DAY_OF_WEEK <- ordered(df$DAY_OF_WEEK, levels=c("Monday", "Tuesday", "Wednesday", "Thursday",
                                          "Friday", "Saturday", "Sunday"))
 #df$INCIDENT_NUMBER<-as.character(df$INCIDENT_NUMBER)
 levels(df$SHOOTING)<-c("No","No","Yes","Yes")
